@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0;
+	background-color: #3D3D3D;
+	}
+	
+	.nav{ 
+	margin-top: -75px;
+	margin-left: 200px;
+	padding: 10px;
+	}	
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #806796;
+}
+
+.moneda{
+	margin-left: 700px;
+	margin-top: -10px;
+}
+
+
+.titulo{
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.texto{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	}
+
+
+.foto1 img{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.foto2 img{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-top: 30px;
+	width: 650px;
+	height: 400px;	
+}
+
+.foto3 img{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-top: 0px;
+	width: 650px;
+	height: 400px;
+}
+
+.foto4 img{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-top: 0px;
+	width: 600px;
+	height: 400px;
+	align-content: center;
+}
+
+h1{
+	margin-top: 140px;
+	  color: darkgrey;
+      text-align: center;
+	  text-shadow: 2px 2px 2px black;
+	  background: #3A3A3A;
+	  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.contact{
+	background-color: #333;
+	color: darkgrey;
+	text-align: center;
+}
+
+h2{
+color: darkgrey;	
+}
+
+.titles{
+color: darkgrey;
+text-decoration: underline;	
+text-shadow: 2px 2px 2px black;
+}
+
+h3{
+color: darkgrey;
+
+}
+
+h5{
+color: darkgrey;	
+}
+
+p{
+color: darkgrey;	
+}
